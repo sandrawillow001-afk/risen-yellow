@@ -63,6 +63,19 @@ A production-grade, full-stack Stellar Testnet dApp utilizing decentralized WebA
 
 ---
 
+## 📸 Verified Submission Visual Evidence
+
+### 1. Multi-Wallet Options Modal Overlay
+![Multi-Wallet Options Modal Overlay](./screenshots/01-wallet-options.png)
+
+### 2. Live Soroban Ledger Synchronization
+![Live Soroban Ledger Synchronization](./screenshots/02-live-sync-scores.png)
+
+### 3. Transaction Feedback & Success Hash Registry
+![Transaction Feedback & Success Hash Registry](./screenshots/03-success-feedback.png)
+
+---
+
 ## 📄 License
 
 This project is submitted as part of the **Stellar Journey to Mastery Program** and is open-sourced under the MIT License.
