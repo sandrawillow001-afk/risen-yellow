@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { WalletProvider } from "@/context/WalletContext";
+import { PollProvider } from "@/context/PollContext";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Stellar White Belt Payment Portal",
+  title: "Stellar Yellow Belt — Live Poll",
   description:
-    "A Stellar Testnet wallet connection and payment interface for the Stellar Journey to Mastery Challenge (White Belt).",
+    "A Soroban Live Poll dApp for the Stellar Journey to Mastery Challenge (Yellow Belt).",
 };
 
 export default function RootLayout({
@@ -30,7 +30,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
       <body>
-        <WalletProvider>{children}</WalletProvider>
+        <PollProvider>{children}</PollProvider>
       </body>
     </html>
   );

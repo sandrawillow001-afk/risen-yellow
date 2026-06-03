@@ -1,10 +1,6 @@
-export interface TransactionState {
-  status: "idle" | "building" | "signing" | "submitting" | "success" | "error";
-  hash: string | null;
-  error: string | null;
-}
+export type TxStatus = "idle" | "pending" | "success" | "failure";
 
-export interface PaymentFormData {
-  destination: string;
-  amount: string;
+export interface PollScoreState {
+  yesVotes: number;
+  noVotes: number;
 }
