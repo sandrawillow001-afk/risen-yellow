@@ -4,6 +4,13 @@ members = [
   "contracts/*",
 ]
 
+[workspace.package]
+authors = ["sandrawillow001-afk <sandrawillow001@gmail.com>"]
+homepage = "https://github.com/sandrawillow001-afk/risen-yellow"
+repository = "https://github.com/sandrawillow001-afk/risen-yellow"
+edition = "2021"
+license = "MIT"
+
 [workspace.dependencies]
 soroban-sdk = "23"
 
