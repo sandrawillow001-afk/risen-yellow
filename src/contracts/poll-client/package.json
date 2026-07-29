@@ -2,6 +2,11 @@
   "version": "0.0.0",
   "name": "poll-client",
   "type": "module",
+  "author": "jerryidoko <jerryidoko@users.noreply.github.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandrawillow001-afk/risen-yellow.git"
+  },
   "exports": "./dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
